@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>template tree</title>
+  </head>
+  <body>
+    <!-- srart scroller -->
+    <div class="scroller"></div>
+    <!-- end scroller -->
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <a href="index.html"
+          ><h1 class="logo">Moso <span>lnter</span><span>ior</span></h1></a
+        >
+        <button>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li>
+            <a href="#shop">Shop</a>
+            <ul>
+              <li><a href="listing.html">Shop Listing</a></li>
+              <li><a href="detail.html">Shop Detail</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- Start Landing Lasting -->
+    <section class="landing-listing">
+      <div class="container">
+        <h1>Shop Listing</h1>
+      </div>
+    </section>
+    <!-- End Landing Listing -->
+    <!-- Strat Prodact Section -->
+    <section class="prodact-listing">
+      <div class="container">
+        <div class="col">
+          <div class="pro">
+            <h3>product</h3>
+            <select name="" id="">
+              <option value="">What do looking for</option>
+              <option value="">Bathroom</option>
+              <option value="">Dining</option>
+              <option value="">Livining Room</option>
+              <option value="">Children Bathroom</option>
+              <option value="kitchen">kitchen</option>
+            </select>
+          </div>
+          <div class="price">
+            <h3>Price</h3>
+            <div>
+              <input type="checkbox" id="price_one" checked />
+              <label for="price_one">below $1,000</label>
+            </div>
+            <div>
+              <input type="checkbox" id="price_two" />
+              <label for="price_two">$1,000 - $4,900</label>
+            </div>
+            <div>
+              <input type="checkbox" id="price_tree" />
+              <label for="price_tree">$5,000 - $9,900</label>
+            </div>
+            <div>
+              <input type="checkbox" id="price_four" />
+              <label for="price_four">$10,000 - $30,000</label>
+            </div>
+          </div>
+          <div class="condition">
+            <h3>condition</h3>
+            <div>
+              <input type="checkbox" id="condition_one" checked />
+              <label for="condition_one">All</label>
+            </div>
+            <div>
+              <input type="checkbox" id="condition_two" />
+              <label for="condition_two">Excellent</label>
+            </div>
+            <div>
+              <input type="checkbox" id="condition_tree" />
+              <label for="condition_tree">Better</label>
+            </div>
+            <div>
+              <input type="checkbox" id="condition_tree" />
+              <label for="condition_tree">Good</label>
+            </div>
+          </div>
+          <div class="type">
+            <h3>type</h3>
+            <div>
+              <input type="checkbox" id="type_one" checked />
+              <label for="type_one">Single</label>
+            </div>
+            <div>
+              <input type="checkbox" id="type_two" />
+              <label for="type_two">Family</label>
+            </div>
+
+          </div>
+          <button>Apple Filters</button>
+        </div>
+        <div class="col">
+          <div class="info-pro">
+            <h1>Products</h1>
+            <p><span>3,648 items</span> are currently available</p>
+            <div class="products-col">
+              <div class="box">
+                <img
+                src="images/shop/minimal-bathroom-interior-design-with-wooden-furniture.jpg"
+                />
+                <div class="shop-icon">
+                  <span>$3,600</span>
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+                <a href="listing.html">Learn more</a>
+                <h3>Bathroom</h3>
+              </div>
+              <div class="box">
+                <img
+                src="images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg"
+                />
+                <div class="shop-icon">
+                  <span>$6,400</span>
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+                <a href="detail.html">Learn more</a>
+                <h3>Dining</h3>
+              </div>
+              <div class="box">
+                <img
+                src="images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg"
+                />
+                <div class="shop-icon">
+                  <span>$2,400</span>
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+                <a href="#">Learn more</a>
+                <h3>Living Room</h3>
+              </div>
+              <div class="box">
+                <img src="images/shop/concept-home-cooking-with-female-chef.jpg" />
+                <a href="#">Learn more</a>
+                <h3>Chef Kitchen</h3>
+                <div class="shop-icon">
+                  <span>$3,800</span>
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-bookmark"></i>
+                </div>
+              </div>
+            </div>
+            <ul class="change">
+              <li class="active">1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Prodact Section -->
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="moso">
+          <h2>Moso Interior</h2>
+          <p>Since 1986, We crafted interior products for better spaces</p>
+          <span><a href="#">Web disgn:tooplate</a></span>
+        </div>
+        <div class="store">
+          <h2>Store</h2>
+          <p><i class="fa fa-location-dot"></i> Berlin, Germany</p>
+        </div>
+        <div class="contact">
+          <h2>Contact info</h2>
+          <p><i class="fa fa-phone"></i>090-080-0760</p>
+          <p><i class="fa fa-envelope"></i><a href="#">info@company.com</a></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="links">
+          <p>Copyright © Moso Interior 2048</p>
+          <div class="icon">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
